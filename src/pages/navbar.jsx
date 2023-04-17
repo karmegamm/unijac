@@ -19,7 +19,7 @@ function Navbar() {
   return<div className="relative flex-col">
     <div className='navbar'>
         <div className="flex-1 ml-5">
-          <img src={logo} className='w-48 h-24 object-fill  rounded-full ' alt="logo" />
+          <img src={logo} className='w-48 h-24 object-fill rounded-full' alt="logo" />
         </div>
         <div className="mr-10 ">
           <ul className={`hidden md:menu  md:menu-horizontal`}>

@@ -35,10 +35,10 @@ body{
   animation: spin 0.5s linear alternate-reverse;
 }
 
-.custom-w{
-  max-width: 345px;
-  max-height: 345px;
-}
+/* .custom-w{
+  width: 345px;
+  height: 345px;
+} */
 .blur{
   filter: blur(4px);
 }
@@ -137,5 +137,9 @@ body{
   }
   .hovdiv:hover .goinside{
     transform: none;
+  }
+  .custom-w{
+    width: 345px;
+    height: 345px;
   }
 }

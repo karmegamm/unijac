@@ -2,8 +2,8 @@ import React from 'react'
 import routes,{socialIcons} from '../routes'
 import {Link} from 'react-router-dom'
 function Footer() {
-  return <div className='h-full z-20  w-full bg-[#f5f5f5]'>
-    <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
+  return <div className='h-full z-20 w-full'>
+    <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded bg-inherit">
         <div className="grid grid-flow-col gap-4">
             {routes.map(({path,name})=>{
                 return <Link to={path}>{name}</Link>
