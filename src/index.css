@@ -35,10 +35,10 @@ body{
   animation: spin 0.5s linear alternate-reverse;
 }
 
-/* .custom-w{
-  width: 345px;
-  height: 345px;
-} */
+.custom-wh{
+  width: 17rem;
+  height: 17rem;
+}
 .blur{
   filter: blur(4px);
 }

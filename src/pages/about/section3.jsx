@@ -5,10 +5,10 @@ function Section3() {
   <div className='w-full h-auto relative  flex-col justify-around'>
       {section3.map(({src,h1,p,icon})=>{
         return  <div className='flex flex-col items-center md:justify-evenly my-10 md:flex-row w-full '>
-                    <div className='main relative w-72  h-72  rounded-full transition duration-700  hover:bg-red-800 overflow-hidden'>
+                    <div className='main relative custom-wh rounded-full transition duration-700  hover:bg-red-800 overflow-hidden'>
                         <div className='rectangle absolute top-28 z-10 animate-spin w-80 bg-red-700 h-14'></div>
                         {/* <div className='inner absolute bg-green-900 custom-w left-3 top-1.5 z-20  overflow-hidden  rounded-full '> */}
-                            <img src={src} className='z-20 relative left-4 top-4 w-64 h-64 rounded-full  '/>
+                            <img src={src} className='z-20 relative left-2 top-2 w-64 h-64 rounded-full  '/>
                         {/* </div> */}
                     </div>
                     <div className='relative w-full  h-auto md:w-[50%] mt-10 bg-gray-100 rounded-3xl text-center md:mt-10 '>
