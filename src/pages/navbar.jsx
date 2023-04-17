@@ -18,8 +18,8 @@ function Navbar() {
 
   return<div className="relative flex-col">
     <div className='navbar'>
-        <div className="flex-1 ml-5 mt-2">
-          <img src={logo} className='w-40 h-20 object-fill  bg-white rounded-full ' alt="logo" />
+        <div className="flex-1 ml-5">
+          <img src={logo} className='w-48 h-24 object-fill  rounded-full ' alt="logo" />
         </div>
         <div className="mr-10 ">
           <ul className={`hidden md:menu  md:menu-horizontal`}>
@@ -36,8 +36,8 @@ function Navbar() {
 }
         </div>  
     </div>
-  <div className={`absolute ${isMt?'flex justify-center':'hidden' } w-full bg-gray-200 ` }>
-      <ul className={`${isMt&&'menu menu-vertical' } w-40 `}>
+  <div className={`absolute flex justify-center ${isMt?'-translate-y-0':'-translate-y-80' } w-full z-40 bg-gray-200  transition-transform duration-500 ease-in` }>
+      <ul className={`menu menu-vertical ${isMt&&'' } w-40 `}>
       {routes.map(({name,path,icon})=>{
             return <li className='rounded-2xl '><Link to={path}><img src={icon} className='w-5 h-5 '/>{name}</Link></li>
            })}

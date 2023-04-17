@@ -1,10 +1,10 @@
 import React from 'react'
-import clg from '../assets/clg.jpg'
+import clg from '../../assets/clg.jpg'
 
 function About() {
     return <div className='mb-6 flex flex-col gap-32 md:mt-10 '>
-        <div className='h-full flex flex-col items-center md:items-start md:ml-24 md:-mb-32'>
-            <h1 className='text-3xl md:text-5xl text-red-900 py-3'> About Us</h1>
+        <div className='h-full flex flex-col items-start ml-16 md:items-start md:ml-20 md:-mb-32'>
+            <h1 className='text-3xl md:text-5xl font-serif first-letter:text-red-600 py-3'> About Us</h1>
         </div>
         <div className='flex flex-wrap flex-col md:flex-row items-center justify-start md:justify-around -mt-28 '>
             <div className='w-[60%] md:h-96  md:mt-5 flex justify-center md:justify-around md:items-center'>

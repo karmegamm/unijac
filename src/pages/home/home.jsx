@@ -3,7 +3,7 @@ import Carousel  from './carousels'
 import Service from './service'
 import About from './about'
 function Home() {
-  return <div className='h-full   w-full'>
+  return <div className='h-full  w-full'>
     <Carousel/>
     <hr />
     <Service />

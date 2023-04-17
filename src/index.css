@@ -19,3 +19,123 @@
 body{
   font-family: 'Rajdhani', sans-serif;
 }
+
+.topic{
+  transition: transform  640ms ease-out;
+}
+.translate-y:hover .topic{
+  transform: translateY(-48px);
+}
+
+.f1f3f2{
+  background-color: #f1f3f2;
+}
+
+.translate-y:hover .kar, .spin{
+  animation: spin 0.5s linear alternate-reverse;
+}
+
+.custom-w{
+  width: 345px;
+  height:345px;
+}
+.blur{
+  filter: blur(4px);
+}
+
+.custom-h{
+  height: 150vh;
+}
+
+@keyframes spin{
+  0%{
+    transform: rotate(0);
+  }
+  25%{
+    transform: rotate(90deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  75%{
+    transform: rotate(270deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.goinside{
+  transform: translateX(-500px);
+}
+
+.hovdiv:hover .goinside{
+   transform: translateX(100px);
+ }
+
+.hovdiv:hover .heading{
+   transform: translate(100px,0px);
+ }
+
+.hovdiv:hover .hovimg{
+   transform: scale(0.8);
+ }
+
+.heading{
+  transform: translate(100px,80px);
+}
+
+
+
+.goinside2{
+  transform: translateX(650px);
+}
+
+.hovdiv2:hover .goinside2{
+   transform: translateX(100px);
+ }
+
+.hovdiv2:hover .heading2{
+   transform: translate(100px,0px);
+ }
+
+.hovdiv2:hover .hovimg2{
+   transform: scale(0.8);
+ }
+
+.heading2{
+  transform: translate(100px,80px);
+}
+
+@media screen and (width<620px){
+  .goinside{
+    transform: none
+  }
+  .heading{
+    transform:none;
+  }
+  .goinside2{
+    transform: none
+  }
+  .heading2{
+    transform:none;
+  }
+  .hovdiv2:hover .heading2{
+    transform: none;
+  }
+  .hovdiv2:hover .goinside2{
+    transform: none;
+  }
+  .hovdiv2:hover .hovimg2{
+    transform: none;
+  }
+  .hovdiv:hover .heading{
+    transform: none;
+  }
+  .hovdiv:hover .hovimg{
+    transform: none;
+  }
+  .hovdiv:hover .goinside{
+    transform: none;
+  }
+}
