@@ -7,9 +7,9 @@ function Section3() {
         return  <div className='flex flex-col items-center md:justify-evenly my-10 md:flex-row w-full '>
                     <div className='main relative custom-wh rounded-full transition duration-700  hover:bg-red-800 overflow-hidden'>
                         <div className='rectangle absolute top-28 z-10 animate-spin w-80 bg-red-700 h-14'></div>
-                        {/* <div className='inner absolute bg-green-900 custom-w left-3 top-1.5 z-20  overflow-hidden  rounded-full '> */}
-                            <img src={src} className='z-20 relative left-2 top-2 w-64 h-64 rounded-full  '/>
-                        {/* </div> */}
+                        <div className='z-20 relative bg-[#f1f3f2] left-2 top-2 w-64 h-64 rounded-full'>
+                            <img src={src} className='z-20 relative left-2 top-2 w-60 h-60 rounded-full'/>
+                        </div>
                     </div>
                     <div className='relative w-full  h-auto md:w-[50%] mt-10 bg-gray-100 rounded-3xl text-center md:mt-10 '>
                         <div className='flex justify-center'>
