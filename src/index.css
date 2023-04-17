@@ -36,8 +36,8 @@ body{
 }
 
 .custom-w{
-  width: 345px;
-  height:345px;
+  max-width: 345px;
+  max-height: 345px;
 }
 .blur{
   filter: blur(4px);
