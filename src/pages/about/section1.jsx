@@ -2,7 +2,7 @@ import React from 'react'
 import img from '../../assets/about.jpeg'
 function Section1() {
   return <div className='w-full md:mb-10 mt-5'>
-    <div className='flex flex-col md:flex-row '>
+    <div className='flex flex-col items-center md:flex-row '>
         <img src={img} className='p-6 rounded-2xl h-80 w-[90%] md:w-[28%]  md:h-80 md:p-0 md:m-14'/>
         <div className='p-4 w-[90%] md:w-[60%] md:p-10 mt-14'>
             <h1 className='text-5xl text-red-700 font-serif font-extrabold text-center'>About Us</h1>
