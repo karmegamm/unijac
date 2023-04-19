@@ -2,7 +2,7 @@ import React from 'react'
 import {card} from '../../routes' 
 import { Link } from 'react-router-dom';
 function Service() {
-  return<div className='w-full flex gap-y-9 flex-wrap justify-evenly mt-7  mb-10 p-4 '>
+  return<div className='w-full flex xl:gap-y-16 gap-y-9 flex-wrap justify-evenly mt-7  mb-10 p-4 '>
         {card.map(({title,src,description,btn_type})=>{
             return <div className="card  shadow-2xl  hover:bg-gray-500 hover:text-white hover:opacity-100  md:w-80">
                 <figure><img src={src} alt="Shoes" className='w-40  md:h-36 md:mt-5 '/></figure>
