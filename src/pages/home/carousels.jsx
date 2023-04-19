@@ -6,7 +6,7 @@ function Carousel() {
     <div className="w-full carousel rounded-box h-full md:mr-5  md:ml-5 ">
     {
         carousels.map(({src,id})=>{
-            return  <div id={id} className="carousel-item w-full">
+            return  <div id={id} className="carousel-item w-full xl:h-96">
                         <img src={src} className="w-full " alt="img" />
                     </div> 
         })
