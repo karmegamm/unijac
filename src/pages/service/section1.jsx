@@ -20,7 +20,7 @@ function Section1() {
                             <h1 className='text-4xl p-3 font-serif text-center first-letter:text-red-500 transition-transform duration-300 heading2 '>{head2}</h1>
                             <p className='p-3  text-gray-600 transition-transform duration-500 goinside2'>{para2}</p>
                         </div>
-                        <img src={img2} className='z-20 w-[70%] xl:w-[80%] md:w-[30%] rounded-2xl transition-transform duration-500 hovimg2' />
+                        <img src={img2} className='z-20 w-[70%] xl:w-[85%] md:w-[30%] rounded-2xl transition-transform duration-500 hovimg2' />
                     </div></div>     
         })}
       </div>
