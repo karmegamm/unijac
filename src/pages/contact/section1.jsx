@@ -49,7 +49,7 @@ function Section1() {
             <label htmlFor="Messege" className='font-serif md:text-2xl text-gray-800'>Enter Your Messege   </label>
             <textarea rows={7} required={true}  onChange={onchange} value={details.message} name="message" className='w-52 md:w-60 bg-inherit border focus:outline-none  text-gray-600 resize-none py-1  border-gray-400 px-1 rounded'></textarea>
         </div>
-         <button className='btn btn-outline md:w-32  md:btn-md mb-5'>{isloading?'processing ...':'submit'}</button> 
+         <button className='btn btn-outline md:w-32 text-black  md:btn-md mb-5'>{isloading?'processing ...':'submit'}</button> 
         </form>
   </div>
 }
