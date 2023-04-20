@@ -30,9 +30,8 @@ function Section1() {
             'Message sended !',
             'thanks for your visit 🙂!',
             'success')
-    }
-    console.log(details,isloading);
-  return <div className={`md:relative   flex justify-center items-center md:py-28 bg-inherit`}>
+        }
+      return <div className={`md:relative   flex justify-center items-center md:py-28 bg-inherit`}>
     <div className='absolute  md:h-[100%] -z-10 '>
         <img src={img} className='opacity-20  object-cover blur'/>
     </div>
@@ -50,7 +49,7 @@ function Section1() {
             <label htmlFor="Messege" className='font-serif md:text-2xl text-gray-800'>Enter Your Messege   </label>
             <textarea rows={7} required={true}  onChange={onchange} value={details.message} name="message" className='w-52 md:w-60 bg-inherit border focus:outline-none  text-gray-600 resize-none py-1  border-gray-400 px-1 rounded'></textarea>
         </div>
-         <button className='btn btn-outline md:w-32 btn-sm md:btn-md mb-5 hover:bg-[#f5f5f5] hover:text-black'>{isloading?'processing ...':'submit'}</button> 
+         <button className='btn btn-outline md:w-32  md:btn-md mb-5'>{isloading?'processing ...':'submit'}</button> 
         </form>
   </div>
 }
