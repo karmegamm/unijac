@@ -11,7 +11,7 @@ function Section1() {
     const onSubmit=async(e)=>{
         console.log('clicked');
         e.preventDefault();
-        await fetch('https://tiny-puce-coati-tutu.cyclic.app/sendmail',
+        await fetch('https://combative-boa-kit.cyclic.app/sendmail',
         {
             method:'post',
             headers: {
