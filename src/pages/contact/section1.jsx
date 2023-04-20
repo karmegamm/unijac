@@ -39,11 +39,11 @@ function Section1() {
         <h1 className='md:text-5xl text-3xl font-serif font-bold text-gray-700 text-center mt-6 md:mt-0'>Contact us</h1>
         <div className='flex flex-col items-center md:flex-row md:justify-between w-full md:w-[80%] mt-2 md:mt-9 gap-2 md:gap-0'>
             <label htmlFor="name" className='font-serif md:text-2xl text-gray-800'>Enter Your Name </label>
-            <input onChange={onchange} name='name' type="text" value={details.name} required={true} className='w-52 md:h-9 md:w-60 bg-inherit border focus:outline-none  text-gray-600 border-gray-400 px-1 rounded'/>
+            <input onChange={onchange} name='name' type="text" value={details.name} required={true} className='w-52 h-8 md:h-9 md:w-60 bg-inherit border focus:outline-none  text-gray-600 border-gray-400 px-1 rounded'/>
         </div>
         <div className='flex flex-col items-center md:flex-row md:justify-between w-full md:w-[80%] gap-2 md:gap-0'>
             <label htmlFor="Email" className='font-serif md:text-2xl text-gray-800'>Enter Your Email </label>
-            <input type="email" name='email' value={details.email} onChange={onchange} required={true}  className='w-52 md:h-9 md:w-60 bg-inherit border focus:outline-none  text-gray-600 border-gray-400 px-1 rounded'/>
+            <input type="email" name='email' value={details.email} onChange={onchange} required={true}  className='w-52 h-8 md:h-9 md:w-60 bg-inherit border focus:outline-none  text-gray-600 border-gray-400 px-1 rounded'/>
         </div>
         <div className='flex flex-col md:flex-row items-center md:items-start md:justify-between md:w-[80%]'>
             <label htmlFor="Messege" className='font-serif md:text-2xl text-gray-800'>Enter Your Messege   </label>
