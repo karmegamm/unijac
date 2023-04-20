@@ -26,6 +26,10 @@ function Section1() {
         .catch(error => console.error(error));
         setDetails({name:'',email:'',message:''});
         setIsLoading(false)
+        Swal.fire(
+            'Message sended !',
+            'thanks for your visit 🙂!',
+            'success')
     }
     console.log(details,isloading);
   return <div className={`md:relative   flex justify-center items-center md:py-28 bg-inherit`}>
